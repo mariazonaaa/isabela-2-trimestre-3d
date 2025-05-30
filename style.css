@@ -59,3 +59,19 @@ body {
 .botoes {
     display: block;
 }
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+@media screen and (mid-width:768px) {
+    .botoes{
+        display: flex;
+    }
+    .botoes :first-child{
+        border-radius: 40px 0 0 0;
+    }
+    .boatao:last-child{
+        border-radius:40px 0 0 0;
+    }
+}
